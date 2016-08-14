@@ -82,7 +82,7 @@ pip2 install --upgrade pip
 pip2 install --upgrade virtualenv
 pip2 install --upgrade "%~dp0\PyYAML-3.11-cp27-cp27m-win32.whl"
 pip2 install --upgrade "%~dp0\PyYAML-3.11-cp27-cp27m-win_amd64.whl"
-git clone --recursive -b dev https://github.com/PokemonGoF/PokemonGo-Bot
+git clone --recursive -b master https://github.com/PokemonGoF/PokemonGo-Bot
 pip2 install --upgrade -r C:/Python27/PokemonGo-Bot/requirements.txt
 cd C:/Python27/PokemonGo-Bot/
 virtualenv .
